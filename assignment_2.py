@@ -21,10 +21,10 @@ finished_program = False
 
 # Count to 10 Program
 
+i = 0 #Moved this variable definition
+
 while finished_program == False:
-
-    i = 0
-
+    
     print(f'Testing i = {i}')
 
     if i == 10:
